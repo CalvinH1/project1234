@@ -30,7 +30,7 @@ moment = Moment(app)
 app.config.from_object('config')
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
-some_engine = create_engine( 'postgresql+psycopg2://postgres:huang@35.227.37.186/connect')
+some_engine = create_engine( 'postgresql+psycopg2://postgres:huang@ip/connect')
 Session = sessionmaker(bind=some_engine)
 sess = Session()
 
