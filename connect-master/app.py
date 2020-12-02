@@ -36,13 +36,7 @@ sess = Session()
 
 
 config = {
-    "apiKey": "AIzaSyCm8-2h_EfDQq9ZoWDfYHeSW9tqhHs_C9o",
-    "authDomain": "annular-haven-295620.firebaseapp.com",
-    "databaseURL": "https://annular-haven-295620.firebaseio.com",
-    "projectId": "annular-haven-295620",
-    "storageBucket": "annular-haven-295620.appspot.com",
-    "messagingSenderId": "435491978832",
-    "appId": "1:435491978832:web:bd8cace7aa09d188581b55",
+  
 }
 
 firebase = pyrebase.initialize_app(config)
